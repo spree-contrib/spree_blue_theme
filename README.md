@@ -8,7 +8,7 @@ INSTALLATION
 
 Add the following line to your Gemfile:
 
-    gem 'spree_blue_theme', :git => 'git://github.com/spree/spree_glue_theme.git'
+    gem 'spree_blue_theme', :git => 'git://github.com/spree/spree_blue_theme.git'
 
 And install:
 
