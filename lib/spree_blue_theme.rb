@@ -1,6 +1,5 @@
 module SpreeBlueTheme
   class Engine < Rails::Engine
-    railtie_name "spree_blue_theme"
 
     config.autoload_paths += %W(#{config.root}/lib)
 
