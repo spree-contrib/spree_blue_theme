@@ -844,15 +844,11 @@ div#checkout form {
 div#checkout #checkout_form_address { background-image: url("../images/steps/2.png"); }
 div#checkout #checkout_form_delivery { background-image: url("../images/steps/3.png"); }
 div#checkout #checkout_form_address #billing label {
-  width: 190px;
   float: left;
-  padding-right: 10px;
   text-align: right;
 }
 div#checkout #checkout_form_address #shipping label {
-  width: 190px;
   float: left;
-  padding-right: 10px;
   text-align: right;
 }
 div#checkout #checkout_form_address #billing input { width: 304px; }
@@ -860,8 +856,8 @@ div#checkout #checkout_form_address #shipping input { width: 304px; }
 div#checkout #checkout_form_address #billing select { width: 304px; }
 div#checkout #checkout_form_address #shipping select { width: 304px; }
 div#checkout #checkout_form_address #billing p.checkbox { padding-left: 200px; }
-div#checkout #checkout_form_address #shipping p.checkbox { padding-left: 200px; }
-div#checkout #checkout_form_address .form-buttons { padding-left: 200px; }
+div#checkout #checkout_form_address #shipping p.checkbox { padding-left: 0px; }
+div#checkout #checkout_form_address .form-buttons { padding-left: 0px; }
 div#checkout #checkout_form_address #billing p.checkbox label {
   width: auto !important;
   float: none !important;
