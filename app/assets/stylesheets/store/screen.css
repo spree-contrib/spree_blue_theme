@@ -782,7 +782,7 @@ table#cart h4 { margin-bottom: 0em; }
 }
 #login #existing-customer input[type=checkbox] { top: 0em; }
 input.openid_url {
-  background: #ffffff url(../images/openid-inputicon.gif) no-repeat scroll 0pt 50%;
+  background: #ffffff url(/assets/openid-inputicon.gif) no-repeat scroll 0pt 50%;
   padding-left: 18px;
   border: 1px solid #bbbbbb;
   font-size: 1.5em;
@@ -841,8 +841,8 @@ div#checkout form {
   background-position: top right;
   background-repeat: no-repeat;
 }
-div#checkout #checkout_form_address { background-image: url("../images/steps/2.png"); }
-div#checkout #checkout_form_delivery { background-image: url("../images/steps/3.png"); }
+div#checkout #checkout_form_address { background-image: url(/assets/steps/2.png); }
+div#checkout #checkout_form_delivery { background-image: url(/assets/steps/3.png); }
 div#checkout #checkout_form_address #billing label {
   float: left;
   text-align: right;
@@ -868,7 +868,7 @@ div#checkout #checkout_form_address #shipping p.checkbox label {
 }
 div#checkout #checkout_form_address #billing p.checkbox input { width: auto !important; }
 div#checkout #checkout_form_address #shipping p.checkbox input { width: auto !important; }
-div#checkout #checkout_form_payment { background-image: url("../images/steps/5.png"); }
+div#checkout #checkout_form_payment { background-image: url(/assets/steps/5.png); }
 div#checkout #checkout_form_payment select { width: 75px; }
 div#checkout #checkout_form_payment #payment {
   display: inline;
