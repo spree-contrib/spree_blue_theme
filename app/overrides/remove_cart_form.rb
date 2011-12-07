@@ -1,3 +1,3 @@
-Deface::Override.new(:virtual_path => 'products/show',
+Deface::Override.new(:virtual_path => 'spree/products/show',
                      :name => 'remove_cart_form',
-                     :remove => "[data-hook='cart_form']")
+                     :remove => '[data-hook="cart_form"]')
