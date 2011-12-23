@@ -4,7 +4,7 @@ Deface::Override.new(:virtual_path => 'spree/shared/_products',
                      :text => %q{ <li id="product_<%= product.id %>" data-hook="products_list_item">
                                     <%= link_to(product, :class => 'info') do %>
                                       <%= product.name %>
-                                      <span class="price selling"><%= product_price(product) %></span>
+                                      <span class="price selling"><%= number_to_currency product.price %></span>
                                     <% end %>
                                     <%= link_to small_image(product), product %>
                                   </li> })
