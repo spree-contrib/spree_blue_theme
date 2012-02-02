@@ -1,3 +1,184 @@
+/* Reset skeleton */
+/* #Base 960 Grid
+================================================== */
+
+    .container                                  { position: inherit; width: auto; margin: inherit inherit; padding: inherit; }
+    .column, .columns                           { float: inherit; display: inherit; margin-left: inherit; margin-right: inherit; }
+    .row                                        { margin-bottom: inherit; display: inline; }
+
+    /* Nested Column Classes */
+    .column.alpha, .columns.alpha               { margin-left: inherit; }
+    .column.omega, .columns.omega               { margin-right: inherit; }
+
+    /* Base Grid */
+    .container .one.column                      { width: inherit;  }
+    .container .two.columns                     { width: inherit; }
+    .container .three.columns                   { width: inherit; }
+    .container .four.columns                    { width: inherit; }
+    .container .five.columns                    { width: inherit; }
+    .container .six.columns                     { width: inherit; }
+    .container .seven.columns                   { width: inherit; }
+    .container .eight.columns                   { width: inherit; }
+    .container .nine.columns                    { width: inherit; }
+    .container .ten.columns                     { width: inherit; }
+    .container .eleven.columns                  { width: inherit; }
+    .container .twelve.columns                  { width: inherit; }
+    .container .thirteen.columns                { width: inherit; }
+    .container .fourteen.columns                { width: inherit; }
+    .container .fifteen.columns                 { width: inherit; }
+    .container .sixteen.columns                 { width: inherit; }
+
+    .container .one-third.column                { width: inherit; }
+    .container .two-thirds.column               { width: inherit; }
+
+    /* Offsets */
+    .container .offset-by-one                   { padding-left: inherit;  }
+    .container .offset-by-two                   { padding-left: inherit; }
+    .container .offset-by-three                 { padding-left: inherit; }
+    .container .offset-by-four                  { padding-left: inherit; }
+    .container .offset-by-five                  { padding-left: inherit; }
+    .container .offset-by-six                   { padding-left: inherit; }
+    .container .offset-by-seven                 { padding-left: inherit; }
+    .container .offset-by-eight                 { padding-left: inherit; }
+    .container .offset-by-nine                  { padding-left: inherit; }
+    .container .offset-by-ten                   { padding-left: inherit; }
+    .container .offset-by-eleven                { padding-left: inherit; }
+    .container .offset-by-twelve                { padding-left: inherit; }
+    .container .offset-by-thirteen              { padding-left: inherit; }
+    .container .offset-by-fourteen              { padding-left: inherit; }
+    .container .offset-by-fifteen               { padding-left: inherit; }
+
+
+
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: inherit) and (max-width: inherit) {
+        .container                                  { width: inherit; }
+        .container .column,
+        .container .columns                         { margin-left: inherit; margin-right: inherit;  }
+        .column.alpha, .columns.alpha               { margin-left: inherit; margin-right: inherit; }
+        .column.omega, .columns.omega               { margin-right: inherit; margin-left: inherit; }
+
+        .container .one.column                      { width: inherit; }
+        .container .two.columns                     { width: inherit; }
+        .container .three.columns                   { width: inherit; }
+        .container .four.columns                    { width: inherit; }
+        .container .five.columns                    { width: inherit; }
+        .container .six.columns                     { width: inherit; }
+        .container .seven.columns                   { width: inherit; }
+        .container .eight.columns                   { width: inherit; }
+        .container .nine.columns                    { width: inherit; }
+        .container .ten.columns                     { width: inherit; }
+        .container .eleven.columns                  { width: inherit; }
+        .container .twelve.columns                  { width: inherit; }
+        .container .thirteen.columns                { width: inherit; }
+        .container .fourteen.columns                { width: inherit; }
+        .container .fifteen.columns                 { width: inherit; }
+        .container .sixteen.columns                 { width: inherit; }
+
+        .container .one-third.column                { width: inherit; }
+        .container .two-thirds.column               { width: inherit; }
+
+        /* Offsets */
+        .container .offset-by-one                   { padding-left: inherit; }
+        .container .offset-by-two                   { padding-left: inherit; }
+        .container .offset-by-three                 { padding-left: inherit; }
+        .container .offset-by-four                  { padding-left: inherit; }
+        .container .offset-by-five                  { padding-left: inherit; }
+        .container .offset-by-six                   { padding-left: inherit; }
+        .container .offset-by-seven                 { padding-left: inherit; }
+        .container .offset-by-eight                 { padding-left: inherit; }
+        .container .offset-by-nine                  { padding-left: inherit; }
+        .container .offset-by-ten                   { padding-left: inherit; }
+        .container .offset-by-eleven                { padding-left: inherit; }
+        .container .offset-by-twelve                { padding-left: inherit; }
+        .container .offset-by-thirteen              { padding-left: inherit; }
+        .container .offset-by-fourteen              { padding-left: inherit; }
+        .container .offset-by-fifteen               { padding-left: inherit; }
+    }
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: inherit) {
+        .container { width: inherit; }
+        .columns, .column { margin: inherit; }
+
+        .container .one.column,
+        .container .two.columns,
+        .container .three.columns,
+        .container .four.columns,
+        .container .five.columns,
+        .container .six.columns,
+        .container .seven.columns,
+        .container .eight.columns,
+        .container .nine.columns,
+        .container .ten.columns,
+        .container .eleven.columns,
+        .container .twelve.columns,
+        .container .thirteen.columns,
+        .container .fourteen.columns,
+        .container .fifteen.columns,
+        .container .sixteen.columns,
+        .container .one-third.column,
+        .container .two-thirds.column  { width: inherit; }
+
+        /* Offsets */
+        .container .offset-by-one,
+        .container .offset-by-two,
+        .container .offset-by-three,
+        .container .offset-by-four,
+        .container .offset-by-five,
+        .container .offset-by-six,
+        .container .offset-by-seven,
+        .container .offset-by-eight,
+        .container .offset-by-nine,
+        .container .offset-by-ten,
+        .container .offset-by-eleven,
+        .container .offset-by-twelve,
+        .container .offset-by-thirteen,
+        .container .offset-by-fourteen,
+        .container .offset-by-fifteen { padding-left: inherit; }
+
+    }
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: inherit) and (max-width: inherit) {
+        .container { width: inherit; }
+        .columns, .column { margin: inherit; }
+
+        .container .one.column,
+        .container .two.columns,
+        .container .three.columns,
+        .container .four.columns,
+        .container .five.columns,
+        .container .six.columns,
+        .container .seven.columns,
+        .container .eight.columns,
+        .container .nine.columns,
+        .container .ten.columns,
+        .container .eleven.columns,
+        .container .twelve.columns,
+        .container .thirteen.columns,
+        .container .fourteen.columns,
+        .container .fifteen.columns,
+        .container .sixteen.columns,
+        .container .one-third.column,
+        .container .two-thirds.column { width: inherit; }
+    }
+
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   margin: 0;
   padding: 0;
@@ -123,6 +304,7 @@ a {
   text-decoration: underline;
   color: #2e6ab1;
 }
+
 blockquote {
   margin: 1.5em;
   color: #666666;
@@ -271,7 +453,6 @@ div.right {
 a { outline: none; }
 #wrapper {
   background: transparent url(/assets/wrapper-back.png) top center no-repeat;
-  padding: 25px 20px 20px;
   min-height: 420px;
   position: relative;
 }
@@ -282,6 +463,16 @@ body.two-col #wrapper { background-image: url(/assets/wrapper-back-2.png); }
   overflow: hidden;
   display: block;
 }
+#top-nav-bar {
+  width: 750px;
+  margin-top: 30px;
+  float: right;
+}
+#logo {
+  width: 200px;
+  display: block;
+  float: left;
+}
 #sidebar {
   display: inline;
   float: left;
@@ -289,19 +480,23 @@ body.two-col #wrapper { background-image: url(/assets/wrapper-back-2.png); }
   min-height: 100px;
   margin-right: 10px;
   padding-right: 24px;
-  margin-right: 25px;
-  border-right: 1px solid #eeeeee;
+  margin-left: 22px;
+  border-right: 1px solid #EEE;
+  margin-top: 6px;
+  padding-top: 20px;
 }
 #sidebar h3 { margin-bottom: 0.5em; }
 body.one-col #content {
   display: inline;
   float: left;
-  width: 950px;
+  width: 910px;
+  padding: 20px;
 }
 body.two-col #content {
   display: inline;
   float: left;
-  width: 750px;
+  width: 730px;
+  margin-left: 0;
 }
 #header {
   position: relative;
@@ -363,7 +558,7 @@ p img {
   text-indent: -5px;
   line-height: 2.2em;
 }
-#breadcrumbs { margin-bottom: 1em; }
+#breadcrumbs { margin-bottom: 1em; margin-top: 20px;}
 #breadcrumbs ul {
   list-style-type: none;
   margin: 0px;
@@ -413,11 +608,13 @@ ul#nav-bar {
   font-size: 1.2em;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0;  
 }
 ul#nav-bar li {
   float: left;
   margin-left: 1em;
+  line-height: 50px;
+  margin-top: -15px;
 }
 ul#nav-bar li.cart-indicator a {
   padding-right: 40px;
@@ -711,14 +908,7 @@ ul.thumbnails li.selected { border-color: #999999; }
   width: 270px;
 }
 #taxon-crumbs {
-  display: inline;
-  float: left;
-  width: 950px;
-  margin-right: 10px;
-  display: block;
-  float: right;
   margin-top: 20px;
-  width: 300px;
 }
 dl.table-display {
   margin: 0;
@@ -743,6 +933,9 @@ div#subtotal {
   width: 49%;
   width: auto;
   text-align: left;
+  clear: both;
+  margin-top: 10px;
+  font-size: 20px;
 }
 table { border-collapse: collapse; }
 table th {
@@ -914,5 +1107,84 @@ div#checkout #checkout-summary {
   margin-top: 10px;
   padding: 20px;
   width: 180px;
+  position: absolute;
+  top: 50px;
+  right: 0;
 }
-
+h6.taxonomy-root, .product-section-title,
+#existing-customer h6, #new-customer h6,
+#forgot-password h6{
+  font-weight: normal;
+  color: #222;
+  font-size: 1.5em;
+  line-height: 1;
+  margin-bottom: 0.5em;
+}
+#taxon-crumbs {
+  margin-top: 30px;
+  float: left;
+  overflow: auto;
+}
+.add-to-cart button#add-to-cart-button, .add-to-cart input[type="number"] {
+  vertical-align: middle;
+}
+li#search-bar {
+  margin-top: 0 !important;
+}
+input[type="checkbox"] {
+  vertical-align: middle;
+}
+div[data-hook="cart_buttons"] {
+  float: right;
+}
+p#clear_cart_link input, p#clear_cart_link a {
+  padding: 5px 10px;
+  vertical-align: middle;
+}
+td[data-hook="cart_item_quantity"] input{
+  width: 50px;
+}
+fieldset#billing {
+  width: 330px;
+  float: left;
+}
+fieldset#billing legend {
+  padding-bottom: 24px;
+}
+form#checkout_form_address {
+  margin-top: 30px;
+}
+#checkout h3.columns.three.alpha {
+  font-size: 2.5em;
+  font-weight: normal;
+  color: #222;
+  line-height: 1;
+  display: block;
+  margin-bottom: 20px;
+}
+#shipping_method #methods {
+  padding-top: 10px;
+}
+#shipping_method #methods label {
+  display: block;
+}
+#order_details .steps-data, #order_summary .steps-data{
+  display: block;
+  margin-top: 10px;
+}
+#order_details .steps-data div.columns.four,
+#order_summary .steps-data div.columns.four{
+  display: block;
+  float: left;
+  padding-right: 20px;
+  width: 210px;
+}
+#order_details .steps-data div.columns.four.omega,
+#order_summary .steps-data div.columns.four.omega {
+  padding-right: 0;
+}
+#order_details .steps-data .payment-info .cc-type img,
+#order_summary .steps-data .payment-info .cc-type img{
+  float: left;
+  padding-right: 5px;
+}
