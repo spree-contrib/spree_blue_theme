@@ -463,7 +463,7 @@ body.two-col #wrapper { background-image: url(/assets/wrapper-back-2.png); }
   overflow: hidden;
   display: block;
 }
-#top-nav-bar {
+#top-main-nav-bar {
   width: 750px;
   margin-top: 30px;
   float: right;
@@ -601,7 +601,7 @@ ul#language-bar li {
   display: inline;
 }
 ul#language-bar strong { font-weight: normal; }
-ul#nav-bar {
+ul#main-nav-bar {
   line-height: 50px;
   float: right;
   clear: both;
@@ -610,18 +610,18 @@ ul#nav-bar {
   margin: 0;
   padding: 0;  
 }
-ul#nav-bar li {
+ul#main-nav-bar li {
   float: left;
   margin-left: 1em;
   line-height: 50px;
   margin-top: -15px;
 }
-ul#nav-bar li.cart-indicator a {
+ul#main-nav-bar li.cart-indicator a {
   padding-right: 40px;
   background: transparent url(/assets/cart-empty_x32.png) center right no-repeat;
   display: block;
 }
-ul#nav-bar li.cart-indicator a.full { background-image: url(/assets/cart-full_x32.png); }
+ul#main-nav-bar li.cart-indicator a.full { background-image: url(/assets/cart-full_x32.png); }
 .pagination {
   padding-top: 10px;
   text-align: right;
